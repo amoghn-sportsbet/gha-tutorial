@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: output the event
-        run: echo ${{ toJSON(github.event)}}
+        run: echo ${{ github.event}}
 
   Test:
     runs-on: ubuntu-latest
