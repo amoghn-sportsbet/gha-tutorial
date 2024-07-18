@@ -13,9 +13,9 @@ on:
 jobs:
   Build:
     runs-on: ubuntu-latest
-  steps:
-    - name: output the event
-      run: echo ${{ github.event}}
+    steps:
+      - name: output the event
+        run: echo ${{ github.event}}
       
   
     
